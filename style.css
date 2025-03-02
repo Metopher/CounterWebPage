@@ -1,0 +1,49 @@
+#page {
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    text-align: center;
+    position: relative;
+}
+
+#countLabel {
+    display: block;
+    font-size: 10em;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.outer-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+#labelcontainer{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.357);
+    border-radius: 20px;
+    padding: 50px;
+}
+.buttons {
+    padding: 10px 20px;
+    font-size: 2em;
+    border-radius: 20px;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    color: white; /* Change text color for better contrast */
+    border: none; /* Remove default border */
+    cursor: pointer;
+    margin: 10px; /* Add some space between buttons */
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.buttons:hover {
+    background: rgba(255, 255, 255, 0.7); /* Change hover effect to a lighter gradient */
+    color: #1fa2ff; /* Change text color on hover for better visibility */
+}
