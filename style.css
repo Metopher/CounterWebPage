@@ -13,10 +13,10 @@
 }
 
 #countLabel {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-size: 10em;
     font-family: sans-serif;
-    margin-bottom: 20px;
 }
 
 .outer-container {
